@@ -46,9 +46,45 @@ Output: "A"
 - 1 <= numRows <= 1000
 <br>
 
-## 문제 풀이 (시간복잡도 O(n))
+## 문제 풀이
+StringBuilder 배열을 사용함으로 같은 줄의 문자들을 동시에 저장하여 사용하도록 하였습니다.
+<br>
+단어를 배열하는 방향은 '아래'와 '대각선 위' 두가지 입니다.  
+boolean 타입의 down 변수는 방향을 나타냅니다.  
+<br>
+어떤 행에 저장할지 cur_row 변수를 사용하였습니다.  
+행은 방향에 따라서 이동하도록 하였습니다.  
+맨 아래를 도달한경우와 다시 맨 위를 도달한 경우 방향을 변경하도록 하였습니다.
 
 ## 소스코드
 ~~~
+class Solution {
+    public String convert(String s, int numRows) {
+        if (numRows == 1) {
+            return s;
+        }
+        
+        StringBuilder[] zigzag = new StringBuilder[numRows];
+        int idx = 0, cur_row = 0;
+        boolean down = true;
 
+        for (int i = 0; i < numRows; i++) {
+            zigzag[i] = new StringBuilder();
+        }
+
+        while (idx != s.length()) {
+            zigzag[cur_row].append(s.charAt(idx++));
+
+            cur_row = down ? cur_row + 1 : cur_row - 1;
+            down = (cur_row == numRows - 1 || cur_row == 0) != down;
+        }
+
+        StringBuilder answer = new StringBuilder();
+        for (StringBuilder sb : zigzag) {
+            answer.append(sb);
+        }
+
+        return answer.toString();
+    }
+}
 ~~~
