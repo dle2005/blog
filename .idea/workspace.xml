@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7a023079-5cd7-401e-82e1-da4ea313bcb0" name="Changes" comment="BOJ 10162 전자레인지">
-      <change afterPath="$PROJECT_DIR$/post/algorithm/leetcode/Container_With_Most_Water.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +67,7 @@
       <workItem from="1655007794197" duration="720000" />
       <workItem from="1655191845097" duration="828000" />
       <workItem from="1657550649465" duration="8000" />
-      <workItem from="1657892753367" duration="3222000" />
+      <workItem from="1657892753367" duration="8435000" />
     </task>
     <task id="LOCAL-00001" summary="BOJ 10162 전자레인지">
       <created>1657893176932</created>
