@@ -4,13 +4,47 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a023079-5cd7-401e-82e1-da4ea313bcb0" name="Changes" comment="BOJ 10162 전자레인지">
+    <list default="true" id="7a023079-5cd7-401e-82e1-da4ea313bcb0" name="Changes" comment="[SpringBoot] Source_and_Target_Compability">
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogPostService/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogPostService/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogPostService/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogPostService/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogPostService/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogPostService/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogPostService/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogPostService/src/main/java/tistory/blogpostservice/BlogPostServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogPostService/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogPostService/src/test/java/tistory/blogpostservice/BlogPostServiceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_study/src/apis/BlogPostAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/post/intellij/Markdown_Image_Plugin.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_study/java_study.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java_study/java_study.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/blogPostService">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -24,24 +58,39 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2ASfEBQuecDFnYmFuHfvRxSZWXt" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/dlee/Desktop/blog&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "11",
+    "last_opened_file_path": "/Users/dlee/Desktop/blog",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
-  <component name="RunManager">
+}]]></component>
+  <component name="RunManager" selected="Application.java_study">
+    <configuration name="java_study" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/java_study" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="blog" />
       <method v="2">
@@ -55,6 +104,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BlogPostServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="blogPostService.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="tistory.blogpostservice.BlogPostServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.java_study" />
+      <item itemvalue="Spring Boot.BlogPostServiceApplication" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -67,7 +127,7 @@
       <workItem from="1655007794197" duration="720000" />
       <workItem from="1655191845097" duration="828000" />
       <workItem from="1657550649465" duration="8000" />
-      <workItem from="1657892753367" duration="8435000" />
+      <workItem from="1657892753367" duration="14632000" />
     </task>
     <task id="LOCAL-00001" summary="BOJ 10162 전자레인지">
       <created>1657893176932</created>
@@ -76,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657893176933</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="[SpringBoot] Source_and_Target_Compability">
+      <created>1658043574539</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1658043574539</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -95,6 +162,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="BOJ 10162 전자레인지" />
-    <option name="LAST_COMMIT_MESSAGE" value="BOJ 10162 전자레인지" />
+    <MESSAGE value="[SpringBoot] Source_and_Target_Compability" />
+    <option name="LAST_COMMIT_MESSAGE" value="[SpringBoot] Source_and_Target_Compability" />
   </component>
 </project>
