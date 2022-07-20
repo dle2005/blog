@@ -4,25 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a023079-5cd7-401e-82e1-da4ea313bcb0" name="Changes" comment="[SpringBoot] Source_and_Target_Compability">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blogPostService/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blogPostService/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blogPostService/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blogPostService/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blogPostService/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blogPostService/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blogPostService/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blogPostService/src/main/java/tistory/blogpostservice/BlogPostServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blogPostService/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blogPostService/src/test/java/tistory/blogpostservice/BlogPostServiceApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_study/src/apis/BlogPostAPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/post/intellij/Markdown_Image_Plugin.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="7a023079-5cd7-401e-82e1-da4ea313bcb0" name="Changes" comment="Blog Post Service initial commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_study/java_study.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java_study/java_study.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_study/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_study/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_study/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_study/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_study/java_study.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_study/out/production/java_study/hello.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_study/src/hello.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,25 +53,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "11",
-    "last_opened_file_path": "/Users/dlee/Desktop/blog",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/dlee/Desktop/blog&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.java_study">
     <configuration name="java_study" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11" />
