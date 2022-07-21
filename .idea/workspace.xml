@@ -76,7 +76,14 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.hello">
+  <component name="RunManager" selected="Application.BlogPostAPI">
+    <configuration name="BlogPostAPI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BlogPostAPI" />
+      <module name="java-exercise" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="hello" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="hello" />
       <module name="java-exercise" />
@@ -114,11 +121,13 @@
     </configuration>
     <list>
       <item itemvalue="Application.java_study" />
+      <item itemvalue="Application.BlogPostAPI" />
       <item itemvalue="Application.hello" />
       <item itemvalue="Spring Boot.BlogPostServiceApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BlogPostAPI" />
         <item itemvalue="Application.hello" />
       </list>
     </recent_temporary>
