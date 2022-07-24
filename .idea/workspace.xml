@@ -4,20 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a023079-5cd7-401e-82e1-da4ea313bcb0" name="Changes" comment="Blog Post Service initial commit">
-      <change afterPath="$PROJECT_DIR$/spring-demo/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo/src/main/java/com/example/springdemo/SpringDemoApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo/src/test/java/com/example/springdemo/SpringDemoApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="7a023079-5cd7-401e-82e1-da4ea313bcb0" name="Changes" comment="Spring demo project initial commit">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo/src/main/java/com/example/springdemo/blog/controller/WriteController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo/src/main/java/com/example/springdemo/blog/dto/WriteDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo/src/test/java/com/example/springdemo/blog/controller/WriteControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-exercise/BlogPostAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-exercise/BlogPostAPI.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +35,9 @@
         <task path="$PROJECT_DIR$">
           <activation />
         </task>
+        <task path="$PROJECT_DIR$/spring-demo">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand />
@@ -54,6 +51,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -63,7 +61,7 @@
         <entry key="$PROJECT_DIR$" value="feature/revert_test" />
       </map>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/spring-demo" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -76,10 +74,16 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "jdk.selected.JAVA_MODULE": "11",
     "last_opened_file_path": "/Users/dlee/Desktop/blog",
     "node.js.detected.package.eslint": "true",
@@ -93,7 +97,23 @@
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
 }]]></component>
-  <component name="RunManager" selected="Spring Boot.SpringDemoApplication">
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.example.springdemo.blog.controller" />
+      <recent name="com.example.springdemo.post" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Gradle.WriteControllerTest.writeTest (1)">
     <configuration name="BlogPostAPI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BlogPostAPI" />
       <module name="java-exercise" />
@@ -115,6 +135,29 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="WriteControllerTest.writeTest (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/spring-demo" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.example.springdemo.post.WriteControllerTest.writeTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
     </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="blog" />
@@ -147,11 +190,13 @@
       <item itemvalue="Application.java_study" />
       <item itemvalue="Application.BlogPostAPI" />
       <item itemvalue="Application.hello" />
+      <item itemvalue="Gradle.WriteControllerTest.writeTest (1)" />
       <item itemvalue="Spring Boot.SpringDemoApplication" />
       <item itemvalue="Spring Boot.BlogPostServiceApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.WriteControllerTest.writeTest (1)" />
         <item itemvalue="Application.BlogPostAPI" />
         <item itemvalue="Application.hello" />
       </list>
@@ -184,7 +229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658043574539</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Spring demo project initial commit">
+      <created>1658416736776</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1658416736776</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,6 +259,7 @@
     </ignored-roots>
     <MESSAGE value="BOJ 10162 전자레인지" />
     <MESSAGE value="[SpringBoot] Source_and_Target_Compability" />
-    <option name="LAST_COMMIT_MESSAGE" value="[SpringBoot] Source_and_Target_Compability" />
+    <MESSAGE value="Spring demo project initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Spring demo project initial commit" />
   </component>
 </project>
