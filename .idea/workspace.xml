@@ -7,7 +7,7 @@
     <list default="true" id="7a023079-5cd7-401e-82e1-da4ea313bcb0" name="Changes" comment="tistory blog post api">
       <change afterPath="$PROJECT_DIR$/spring-demo/src/main/java/com/example/springdemo/blog/util/FileReaderUtil.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/spring-demo/src/test/java/com/example/springdemo/blog/util/FileReaderUtilTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-demo" beforeDir="false" afterPath="$PROJECT_DIR$/spring-demo" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
